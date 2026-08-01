@@ -43,32 +43,15 @@ clinical-reporting-in-python/
 ---
 
 
-## Current Scope
+## Notes
 
-The examples in this repository are intended to demonstrate the core workflow for developing clinical TLFs in Python using **rtflite**. While they cover common reporting scenarios, there are several opportunities for further enhancement:
+These examples reflect my experience exploring **rtflite** for clinical reporting in Python and are intended to demonstrate one possible approach to developing clinical TLFs.
 
-- Additional TLF examples covering a wider range of efficacy and safety analyses.
-- More reusable and metadata-driven reporting utilities.
-- Enhanced support for complex table layouts and sponsor-specific formatting requirements.
-- Integration with other **Pharmaverse** packages as the Python clinical reporting ecosystem continues to evolve.
-- Additional examples illustrating best practices for reusable and production-oriented reporting workflows.
+Based on my experience using the package, I believe there are opportunities to further expand the Python clinical reporting ecosystem. For example:
 
-## Future Directions
+- Additional examples covering a wider range of clinical TLFs.
+- More reusable reporting utilities and templates.
+- Examples illustrating metadata-driven reporting workflows.
+- Community-contributed examples demonstrating different reporting scenarios and programming approaches.
 
-As the Python ecosystem for clinical trial reporting continues to mature, this repository will continue to evolve with additional examples and reusable reporting components.
-
-It is also intended to serve as a useful starting point for clinical programmers who are interested in exploring **Python** for clinical reporting and for anyone looking to build reusable, production-oriented TLF workflows beyond the traditional SAS or R ecosystem.
-
-## References
-
-- **rtflite**  
-  https://github.com/pharmaverse/rtflite
-
-- **Pharmaverse**  
-  https://pharmaverse.org
-
-- **r2rtf**  
-  https://github.com/Merck/r2rtf
-
-- **Pharmaverse ADaM Example Data**  
-  https://github.com/pharmaverse/pharmaverseadam
+I hope this repository serves as a useful starting point for clinical programmers who are interested in exploring **Python** for clinical reporting and encourages further learning, experimentation, and contributions from the community.
