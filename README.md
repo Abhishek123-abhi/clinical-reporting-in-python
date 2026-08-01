@@ -45,13 +45,18 @@ clinical-reporting-in-python/
 
 ## Notes
 
-These examples reflect my experience exploring **rtflite** for clinical reporting in Python and are intended to demonstrate one possible approach to developing clinical TLFs.
+This repository reflects my experience exploring **rtflite** for clinical reporting in Python and presents one possible approach to developing clinical TLFs.
 
-Based on my experience using the package, I believe there are opportunities to further expand the Python clinical reporting ecosystem. For example:
+The examples included here are intentionally simple and are intended to serve as reference implementations rather than production standards. My goal is to continue expanding this repository with additional examples, reusable programming patterns, and reporting workflows as I continue learning and exploring the Python clinical reporting ecosystem.
 
-- Additional examples covering a wider range of clinical TLFs.
-- More reusable reporting utilities and templates.
-- Examples illustrating metadata-driven reporting workflows.
-- Community-contributed examples demonstrating different reporting scenarios and programming approaches.
+## Observations
 
-I hope this repository serves as a useful starting point for clinical programmers who are interested in exploring **Python** for clinical reporting and encourages further learning, experimentation, and contributions from the community.
+Based on my experience exploring **rtflite**, I observed a few areas where additional customization or implementation may be required for production-style clinical reports:
+
+- Some sponsor-specific reporting layouts may require additional programming beyond the package's built-in functionality.
+- Some report formatting features, such as borders, headers, and multi-page tables, may require additional customization.
+- Compared with mature clinical reporting solutions in SAS or R, fewer end-to-end examples and reusable reporting templates are currently available in Python.
+- As the Python clinical reporting ecosystem continues to evolve, there are opportunities for more reusable reporting utilities, metadata-driven workflows, and community-contributed examples.
+
+  
+I hope this repository serves as a useful starting point for clinical programmers who are interested in exploring **Python** for clinical reporting and encourages further learning, experimentation, and knowledge sharing within the community.
